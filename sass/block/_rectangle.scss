@@ -1,0 +1,22 @@
+.rectangle {
+    background: url(/assets/img.svg);
+    height: 278px;
+    padding: 40px 0;
+
+    p {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    span {
+        color: $bg-orange;
+    }
+
+    h3 {
+        color: #fff;
+        font-size: 64px;
+        font-weight: 400;
+        margin-top: 64px;
+    }
+}

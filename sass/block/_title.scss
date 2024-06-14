@@ -1,0 +1,53 @@
+.title {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 270px;
+
+    &__text {
+        
+        .work {
+            margin-top: 24px;
+
+            p {
+                margin-top: 16px;
+            }
+        }
+    }
+
+    .text {
+        
+        h4 {
+            margin-top: 24px;
+        }
+
+        .word {
+            display: flex;
+            gap: 100px;
+            margin-top: 16px;
+
+            .word__text {
+
+                .number {
+
+                    p {
+                        margin-top: 10px;
+                        color: #777777;
+                        font-size: 16px;
+                        font-weight: 300;
+                    }
+                }
+            }
+
+            .words {
+
+                p {
+                    margin-top: 10px;
+                    color: $bg-dark;
+                    font-size: 16px;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+}

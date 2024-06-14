@@ -1,0 +1,61 @@
+.form {
+    background-color: #131313;
+    height: 275px;
+    margin-top: 80px;
+
+    .form__collection {
+        display: flex;
+        justify-content: space-between;
+
+        .form__item {
+            margin-top: 40px;
+
+            h3 {
+                color: $bg-white;
+                font-size: 30px;
+                font-weight: 400;
+            }
+
+            .form__btn {
+                display: flex;
+                align-items: center;
+                gap: 16px;
+                margin-top: 30px;
+
+                input {
+                    width: 250px;
+                    height: 40px;
+                    border: none;
+                    border-radius: 5px;
+                    outline: none;
+                }
+
+                button {
+                    width: 135px;
+                    height: 40px;
+                    background-color: $bg-orange;
+                    color: $bg-white;
+                    border: none;
+                    border-radius: 5px;
+                }
+            }
+
+            .form__text {
+                display: flex;
+                margin-top: 14px;
+                gap: 8px;
+
+                input {
+                    width: 24px;
+                    height: 24px;
+                }
+
+                p {
+                    color: $bg-white;
+                    font-size: 12px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
